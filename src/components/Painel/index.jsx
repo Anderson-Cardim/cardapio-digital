@@ -18,17 +18,17 @@ export const Painel = () => {
         </div>
 
             <div className="flex justify-center gap-5 lg:gap-15 text-[#fff] sm:mr-4 sm:ml-4">
-                <div className="bg-[#667eea] w-[30vw] lg:w-[20vw] rounded-2xl flex flex-col items-center h-[18vh] justify-center md:pt-15 md:pb-15">
+                <div className="bg-[#667eea] w-[30vw] lg:w-[20vw] rounded-2xl flex flex-col items-center h-[16vh] justify-center md:pt-15 md:pb-15">
                     <h1 className="font-bold sm:text-2xl text-xl">{produtosCad.length}</h1>
                     <span className="sm:text-xl ml-2 mr-2 text-[14px]">Produtos</span>
                 </div>
 
-                <div className="flex flex-col items-center justify-center bg-[#764ba2] w-[30vw] h-[18vh] rounded-2xl md:pt-15 md:pb-15 lg:w-[20vw]">
+                <div className="flex flex-col items-center justify-center bg-[#764ba2] w-[30vw] h-[16vh] rounded-2xl md:pt-15 md:pb-15 lg:w-[20vw]">
                     <h1 className="font-bold sm:text-2xl text-xl">{totalCategorias}</h1>
                     <span className="sm:text-xl ml-2 mr-2 text-[14px]">Categorias</span>
                 </div>
 
-                <div className="flex flex-col items-center justify-center bg-[#4facfe]  w-[30vw] h-[18vh] rounded-2xl md:pt-15 md:pb-15 lg:w-[20vw]">
+                <div className="flex flex-col items-center justify-center bg-[#4facfe]  w-[30vw] h-[16vh] rounded-2xl md:pt-15 md:pb-15 lg:w-[20vw]">
                     <h1 className="font-bold sm:text-2xl text-xl">156</h1>
                     <span className="sm:text-xl ml-2 mr-2 text-[14px]">Visualizações</span>
                 </div>
