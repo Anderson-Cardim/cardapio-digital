@@ -12,7 +12,7 @@ import { EditProdCad } from "../../components/EditProdCad/index";
 
 export const Admin = () => {
 
-  const { showDialogCadastrarProduto, closeFormDialogCadastrarProduto, showDialogPersonalizarCardapio, closeFormDialogPersonalizarCardapio, showDialogQRcode, closeFormDialogQRcode, showDialogEstatistica, closeFormDialogEstatistica, showDialogEditProd, closeFormDialogEditProd, selected, personalizarPer} = use(CardapioContext);
+  const { showDialogCadastrarProduto, closeFormDialogCadastrarProduto, showDialogPersonalizarCardapio, closeFormDialogPersonalizarCardapio, showDialogQRcode, closeFormDialogQRcode, showDialogEstatistica, closeFormDialogEstatistica, showDialogEditProd, closeFormDialogEditProd, selected, personalizarPer, } = use(CardapioContext);
 
     return (
         <>

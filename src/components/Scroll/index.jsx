@@ -35,7 +35,7 @@ export const Scroll = () => {
 
                 const isSelected = item.id === activeButtonId ;
 
-                const color = isSelected ? 'bg-[#ee5a6f] text-[#fff]'  : 'bg-[#f5f5f5] text-[#000]';
+                const color = isSelected ? 'bg-[#ff6b6b] hover:bg-[#e20606] text-[#fff] hover:translate-y-[1px]'   : 'bg-[#f5f5f5] text-[#000] hover:translate-y-[1px]';
 
                 const baseClasses = `sm:p-3 p-1 w-40 ${color} rounded-3xl cursor-pointer font-medium sm:text-[16px] pr-5 pl-5 mb-10`;
 
