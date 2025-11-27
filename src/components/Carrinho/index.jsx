@@ -91,7 +91,7 @@ export const Carrinho = ({ isOpen, onClose }) => {
     };
 
     return (
-        <dialog ref={dialogRef} className='bg-[#fff] m-4 max-w-lg w-full max-h-[90vh] rounded-2xl p-5 shadow-2xl'>
+        <dialog ref={dialogRef} className='bg-[#fff] m-4 min-w-[200px] w-[600px]  max-h-[90vh] rounded-2xl p-5 shadow-2xl '>
             <div className='flex justify-between items-center mb-4 pb-4 border-b border-gray-300'>
                 <div className='flex justify-center items-center gap-2'>
                     <FaEdit size={24} className="text-[#ff6b6b]"/> 

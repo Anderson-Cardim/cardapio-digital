@@ -26,7 +26,7 @@ export const Cliente = () => {
             </div>
               <Scroll/>
 
-            <div className='flex justify-end lg:mr-15'>
+            <div className='flex justify-end lg:mr-15 md:mr-10 mr-8'>
               <Button className="cursor-pointer bg-[#ff6b6b] hover:bg-[#e20606] text-white p-4 rounded-full shadow-lg" onClick={openDialogCarrinho}>
                 <BsCart3 size={35}/>
               </Button>
